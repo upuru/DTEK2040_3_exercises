@@ -1,0 +1,29 @@
+{
+  "name": "okbackend",
+  "version": "1.0.0",
+  "description": "\"# 3exercises\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upuru/3exercises.git"
+  },
+  "author": "Ukri-Pekka Puruskainen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/upuru/3exercises/issues"
+  },
+  "homepage": "https://github.com/upuru/3exercises#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.21"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
